@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sanggeon Jung's Portfolio Website">
+  <title>Sanggeon Jung | Portfolio</title>
+  <link rel="icon" href="Photo&Video/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <h1>Sanggeon Jung</h1>
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#media">Media</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I love building <em>products that solve real-world problems</em>, and I’m passionate about <strong>accessibility</strong> and <strong>AI-driven automation</strong>.</p>
+
+      <ul>
+        <li><span> From South Korea</span></li>
+        <li><span> Currently in California</span></li>
+        <li><span> Career Goal: Software developer / Startup Founder</span></li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li><a href="https://github.com/TopgeonKR/Student-Check-In-System">Student Check In System</a> - Built using Python</li>
+        <li><a href="https://github.com/TopgeonKR/Full-Stack-Chat-Application">Chat Application</a> - Chat application for website and web application</li>
+      </ol>
+    </section>
+
+    <section id="media">
+      <h2>Photos & Media</h2>
+      <h3>Photo with my friend</h3>
+      <img src="Photo&Video/MeandFriend.jpg" alt="Photo of me coding" width="300">
+
+      <h3>Short Audio saying "Hi, my name is Sanggeon."</h3>
+      <audio controls>
+        <source src="Photo&Video/HiAudio.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Short Video saying "Hi!"</h3>
+      <video width="320" height="240" controls>
+        <source src="Photo&Video/HiVideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section>
+      <h2>More Info</h2>
+      <details>
+        <summary>Click to learn more about me</summary>
+        <p>I’ve worked at a construction tech company and built mobile apps with GPS and license plate recognition features.</p>
+      </details>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <fieldset>
+          <legend>Leave a Message</legend>
+
+          <label>Name: <input type="text" name="name" required></label><br><br>
+          <label>Email: <input type="text" name="email"></label><br><br>
+          <label>Birthday: <input type="date" name="birth"></label><br><br>
+
+          <label>Interest Area:</label><br>
+          <input type="checkbox" name="interest" value="web"> Web
+          <input type="checkbox" name="interest" value="ai"> AI
+          <br><br>
+
+          <label>How did you find me?</label><br>
+          <input type="radio" name="source" value="linkedin"> LinkedIn
+          <input type="radio" name="source" value="github"> GitHub
+          <input type="radio" name="source" value="search"> Search
+          <br><br>
+
+          <label>Your Message:</label><br>
+          <textarea rows="4" cols="50" name="message"></textarea><br><br>
+
+          <label>Favorite tool:
+            <input list="tools" name="tool">
+            <datalist id="tools">
+              <option value="VSCode">
+              <option value="Notion">
+              <option value="Figma">
+            </datalist>
+          </label><br><br>
+
+          <label>Preferred Contact:
+            <select name="contact_method">
+              <option value="email">Email</option>
+              <option value="discord">Discord</option>
+              <option value="phone">Phone</option>
+            </select>
+          </label><br><br>
+
+          <button type="submit">Send</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>© 2025 Sanggeon Jung | <a href="mailto:saj032@ucsd.edu">Email Me</a></p>
+  </footer>
+
+</body>
+</html>
