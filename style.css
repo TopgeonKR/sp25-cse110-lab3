@@ -77,4 +77,53 @@ section#projects ol {
 }
 
 
+/* Add somethings missed */
+
+footer {
+  background-color: rgb(30, 30, 30);
+  color: #FFF;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+
+/* Selectors showcase */
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"]:hover {
+  border-color: red;
+}
+
+section > h2 {
+  color: navy;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+form:has(button:hover) {
+  border-color: green;
+}
+
+h2 + p {
+  font-style: italic;
+}
+
+input[type="radio"]:checked ~ label {
+  font-weight: bold;
+}
+
+img {
+  position: relative;
+}
 
