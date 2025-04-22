@@ -18,8 +18,7 @@ header {
 }
 
 section#about {
-  background-color: color-mix(in srgb, lightblue 70%, white 30%);
-  color: rgb(30, 30, 30);
+  background-color: lightblue;
 }
 
 /* add spacing */
