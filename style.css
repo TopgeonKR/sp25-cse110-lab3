@@ -35,5 +35,15 @@ main {
   max-width: 1000px;
 }
 
+/* Styling borders and radius */
+
+fieldset {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #666;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
   
 
