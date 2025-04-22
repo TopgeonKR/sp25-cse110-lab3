@@ -54,5 +54,13 @@ nav {
   flex-wrap: wrap;
 }
 
+/* Creating grid layout for projects list*/
+
+section#projects ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  place-items: start;
+}
   
 
