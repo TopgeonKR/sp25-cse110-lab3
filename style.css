@@ -45,5 +45,14 @@ fieldset {
   padding: 2rem;
 }
 
+/* Applying flexbox layout */
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
   
 
