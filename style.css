@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
 
+/*add color and background style*/
+
 :root {
   --primary-color: #224488;
   --fallback-color: navy;
@@ -18,6 +20,19 @@ header {
 section#about {
   background-color: color-mix(in srgb, lightblue 70%, white 30%);
   color: rgb(30, 30, 30);
+}
+
+/* add spacing */
+
+section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 1em 2em;
+}
+
+main {
+  margin: auto;
+  max-width: 1000px;
 }
 
   
