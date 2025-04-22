@@ -2,5 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
+
+:root {
+  --primary-color: #224488;
+  --fallback-color: navy;
+}
+
+header {
+  background-color: var(--primary-color, var(--fallback-color));
+  color: white;
+  padding: 1rem;
+}
+
+section#about {
+  background-color: color-mix(in srgb, lightblue 70%, white 30%);
+  color: rgb(30, 30, 30);
+}
+
   
+
